@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: #cbd7eb;
+}
+.navber {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  align-items: center;
+  padding: 1rem;
+}
+.nav-content {
+  display: flex;
+  gap: 5px;
+}
+.nav-content-two {
+  display: flex;
+  gap: 2rem;
+}
+.nav-three ul li {
+  font-size: 19px;
+  list-style: none;
+}
+.nav-three a {
+  padding: 10px;
+  color: black;
+}
+
+.nav-three a:hover {
+  background: #9da09f;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+  margin-left: 5rem;
+}
+/*  */
+.fast {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 1;
+}
+.fast::before {
+  content: "";
+  background: url(./img/Momo\ Inn.jpg) no-repeat center center/cover;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.Part-second {
+  text-align: center;
+  padding-top: 8rem;
+}
+.Part-second p {
+  margin-top: 2rem;
+  font-size: 22px;
+}
+.link {
+  margin-top: 3rem;
+}
+.link a {
+  background: #8470d4;
+  padding: 12px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  color: #eee;
+}
+.link a:hover {
+  background: #5d44b8;
+}
+h1 {
+  font-size: 4rem;
+  text-shadow: 2px 2px #eee;
+}
+/*  */
+.second {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  grid-gap: 0.5rem;
+}
+.second img {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+}
+.second-pard {
+  margin-left: 0.6rem;
+  text-align: start;
+  margin-top: 4rem;
+}
+.second-pard h2 {
+  text-align: center;
+}
+.second-pard p {
+  margin-top: 2rem;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.link-a {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 3rem;
+}
+.link-a a {
+  text-decoration: none;
+  color: black;
+}
+.link-a a:hover {
+  text-align: center;
+  background: #c2bdbd;
+  width: 100%;
+  padding: 15px;
+}
+.svg-style {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.hp-style {
+  width: 100%;
+  padding: 3rem;
+}
+.hp-style h3 {
+  font-size: 22px;
+}
+.hp-style p {
+  padding: 2rem;
+  font-size: 20px;
+}
+.hp-style-two p {
+  padding: 2rem;
+  font-size: 20px;
+}
+.hp-style-two h3 {
+  font-size: 22px;
+}
+.hp-style-two {
+  width: 100%;
+  padding: 3rem;
+  background: #5d6b66;
+}
+.free {
+  background: #5d6b66;
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  text-align: center;
+  color: white;
+  background: #999999;
+  padding: 30px;
+  font-size: 18px;
+}

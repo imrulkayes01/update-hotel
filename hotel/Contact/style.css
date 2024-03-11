@@ -1,0 +1,138 @@
+/* CONTACT */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: #cbd7eb;
+}
+.navber {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  align-items: center;
+  padding: 1rem;
+  background: #cbd7eb;
+}
+.nav-content {
+  display: flex;
+  gap: 5px;
+}
+.nav-content-two {
+  display: flex;
+  gap: 2rem;
+}
+.nav-three ul li {
+  font-size: 19px;
+  list-style: none;
+}
+.nav-three a {
+  padding: 10px;
+}
+
+.nav-three a:hover {
+  background: #9da09f;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+  margin-left: 5rem;
+  color: black;
+}
+
+.conteinar {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 10px;
+}
+form {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.paragraph {
+  font-size: 45px;
+}
+.pg {
+  font-size: 22px;
+  margin-top: 1rem;
+}
+label {
+  font-size: 19px;
+  color: #43a2f9;
+}
+input {
+  width: 55%;
+  padding: 10px;
+  margin-top: 1rem;
+}
+textarea {
+  width: 70%;
+}
+.btn button {
+  padding: 10px;
+  font-size: 20px;
+  background: #777777;
+  border: none;
+  margin-top: 2rem;
+  color: white;
+}
+.btn button:hover {
+  background: #5d6b66;
+}
+
+/*  */
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 5rem;
+}
+.hp {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.hp h4 {
+  font-size: 22px;
+  margin-top: 2rem;
+}
+.hp p {
+  font-size: 18px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+  width: 220px;
+  height: 220px;
+  background: rgb(238, 237, 237);
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+/* footer */
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+  background: #999999;
+  padding: 30px;
+  font-size: 18px;
+}
